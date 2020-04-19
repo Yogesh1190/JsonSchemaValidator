@@ -1,0 +1,39 @@
+{
+  "name": "jsonvalidator",
+  "version": "1.0.0",
+  "description": "This is project is used to validate input JSON request with respective JSON schema.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yogesh1190/JsonSchemaValidator.git"
+  },
+  "keywords": [
+    "JSON",
+    "Schema",
+    "Validator"
+  ],
+  "author": "Yogesh S. Shisode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yogesh1190/JsonSchemaValidator/issues"
+  },
+  "homepage": "https://github.com/Yogesh1190/JsonSchemaValidator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonschema": "^1.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@types/babel-core": "^6.25.6",
+    "nodemon": "^2.0.3"
+  }
+}
