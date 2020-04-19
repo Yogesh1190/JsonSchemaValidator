@@ -8,8 +8,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites
 
-What things you need to install the software and how to install them
-
 Make sure nodejs is installed on your machine. You can use below command to check current version of the nodejs which is available on your machine.
 
 ```
